@@ -10,9 +10,6 @@
         <meta http-equiv="X-UA-Compatible" 
               content="ie=edge">
         
-        <title>
-            Document
-        </title>
 
         <?php 
             wp_head(); 
