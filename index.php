@@ -13,6 +13,10 @@
         <title>
             Document
         </title>
+
+        <?php 
+            wp_head(); 
+        ?>
     </head>
 
     <body>
@@ -28,4 +32,8 @@
             get_footer();
         ?>
     </body>
+
+    <?php 
+        wp_footer(); 
+    ?>
 </html>
