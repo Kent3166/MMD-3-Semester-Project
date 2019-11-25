@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html <?php language_attributes(); ?>>
     <head>
         <meta charset="UTF-8">
         
@@ -16,9 +16,12 @@
     </head>
 
     <body>
+        <?php 
+        
+        ?>
 
         <main> 
-            
+
         </main>
         
         <?php
