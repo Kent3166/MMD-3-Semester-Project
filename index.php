@@ -10,11 +10,17 @@
         <meta http-equiv="X-UA-Compatible" 
               content="ie=edge">
 
+        <meta name="description" 
+              content="en wordpress side" />
+        
+        <meta name="yandex-verification" 
+              content="7e520d70d8db6d7e" />
+
         <?php 
             wp_head(); 
         ?>
     </head>
-
+    
     <body>
         <?php 
             get_header(); 
