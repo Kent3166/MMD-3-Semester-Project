@@ -3,10 +3,44 @@
     Description: 
 */
 
+// Generic Elements
 @import './template.scss';
 
+// Core Areas
 @import './header.scss';
 @import './footer.scss';
 @import './main.scss';
 
+
+// Base for layout
+body 
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 8px;
+
+}
+
+header 
+{
+    display: block;
+
+}
+
+main 
+{
+    display: block;
+
+}
+
+footer 
+{
+    display: block;
+    
+}
+
+// Responsive design elements
 @import './responsive.scss';
+
+
