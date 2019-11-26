@@ -13,8 +13,11 @@
         <?php 
             wp_head(); 
         ?>
+        
+        <meta name="yandex-verification" 
+              content="7e520d70d8db6d7e" />
     </head>
-
+    
     <body>
         <?php 
             get_header(); 
