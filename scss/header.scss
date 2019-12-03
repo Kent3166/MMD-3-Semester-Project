@@ -2,3 +2,46 @@
     File: Header.scss
     Description: 
 */
+
+header
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav 
+{
+    padding-top: 32px;
+    padding-bottom: 32px; 
+
+    background-color: $header-menu-color;
+
+}
+
+header nav ul 
+{
+    list-style: none;
+
+    margin: 0px;
+    padding: 0px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header nav ul li 
+{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+header nav ul li a 
+{
+    color:white;
+
+    font-family: 'open sans';
+    text-transform: uppercase;
+    
+    text-decoration: none;
+}

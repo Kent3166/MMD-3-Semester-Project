@@ -1,4 +1,4 @@
-<!-- INDEX PHP FILE -->
+<!-- ARCHIVE AREA -->
 <!DOCTYPE html>
 
 <html <?php language_attributes(); ?>>

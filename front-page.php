@@ -1,4 +1,4 @@
-<!-- INDEX PHP FILE -->
+<!-- FRONTPAGE AREA -->
 <!DOCTYPE html>
 
 <html <?php language_attributes(); ?>>

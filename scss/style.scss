@@ -11,6 +11,22 @@
 @import './footer.scss';
 @import './main.scss';
 
+a 
+{
+    text-decoration: none;
+}
+
+ul 
+{
+    margin:0px;
+    padding: 0px;
+}
+
+ul li 
+{
+    list-style: none;
+}
+
 
 // Base for layout
 body 

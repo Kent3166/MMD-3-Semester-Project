@@ -1,10 +1,20 @@
+<!-- FUNCTIONS FILE PHP -->
 <?php 
 
 function theme_setup_after()
 {
       /* Adds support for wordpress to handle setting the title  */
       add_theme_support( 'title-tag' );
-      
+
+      // Registration
+      register_menus();  
+}
+
+function register_menus()
+{
+    register_nav_menus( array( 'header-menu' => __( 'Header Main Area Menu', 'theme-menu' ), 
+                               'footer-menu' => __( 'Footer Main Area Menu', 'theme-menu' ),
+                               'misc-menu' => __( 'Misc. Area Menu', 'theme-menu' ) ) );
 }
 
 add_action('after_setup_theme', 'theme_setup_after');

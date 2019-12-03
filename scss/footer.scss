@@ -2,3 +2,78 @@
     File: Footer.scss
     Description: 
 */
+
+footer 
+{
+
+}
+
+footer a 
+{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'open sans';
+}
+
+footer nav 
+{
+
+}
+
+#footer-main-menu-area
+{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    background-color: $footer-menu-color;
+}
+
+#menu-footer 
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-footer-container
+{
+    display: flex;
+}
+
+.menu-footer-container ul 
+{
+    justify-content: center;
+}
+
+#menu-footer li 
+{
+    
+    width: 328px;
+    margin-right: 32px;
+}
+
+#footer-misc-menu-area
+{
+    background-color: $footer-misc-color;
+    
+    padding-top: 16px;
+    padding-bottom: 16px;   
+}
+
+#menu-misc
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+
+#menu-misc li 
+{
+    margin-right: 16px;
+    margin-left: 16px;
+    
+}
