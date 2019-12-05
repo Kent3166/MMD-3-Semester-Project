@@ -2,12 +2,8 @@
     get_header(); 
 ?>
 
-    <main> 
-    
-        <!-- About Template --> 
-        <section> 
-        </section>
-        
+    <main>
+        <!-- Products Template --> 
         <section> 
         </section>
         

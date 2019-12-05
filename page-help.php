@@ -3,15 +3,13 @@
 ?>
 
     <main> 
-    
-        <!-- About Template --> 
+        <!-- Help Template --> 
         <section> 
+        
         </section>
         
         <section> 
-        </section>
         
-        <section> 
         </section>
     </main>
         
