@@ -35,6 +35,13 @@
   </div>
 </footer>
 
+</body>
+
+    <?php 
+        wp_footer(); 
+    ?>
+</html>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136109379-5">
 </script>
