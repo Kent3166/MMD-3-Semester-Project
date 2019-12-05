@@ -5,11 +5,28 @@
 
 // Generic Elements
 @import './template.scss';
+@import './sections.scss';
 
 // Core Areas
 @import './header.scss';
 @import './footer.scss';
 @import './main.scss';
+
+a 
+{
+    text-decoration: none;
+}
+
+ul 
+{
+    margin:0px;
+    padding: 0px;
+}
+
+ul li 
+{
+    list-style: none;
+}
 
 
 // Base for layout
@@ -17,6 +34,8 @@ body
 {
     margin: 0px;
     padding: 0px;
+
+    background-color: $primary-background;
 
     display: grid;
     
@@ -42,6 +61,13 @@ footer
 {
     display: block;
     
+}
+
+
+section
+{
+    padding-top: 32px;   
+    padding-bottom: 32px;
 }
 
 // Responsive design elements

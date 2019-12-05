@@ -1,0 +1,103 @@
+%overlay
+{
+    font-family: 'open sans';
+}
+
+.primary-overlay
+{
+    @extend %overlay;
+    background-color: $primary-background;
+
+}
+
+.primary-overlay h1 
+{
+    text-transform: uppercase;
+}
+
+.secondary-overlay
+{
+    
+    @extend %overlay;
+    color: white;
+    background-color: $secondary-background;
+}
+
+.secondary-overlay h1
+{
+    
+    text-transform: uppercase;
+}
+
+.secondary-overlay p 
+{
+
+}
+
+.about-overlay
+{
+    @extend %grid-section-setup;
+    @extend .primary-overlay;
+
+    text-align: center;
+}
+
+.about-overlay div 
+{
+    grid-column: span 6;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.about-overlay div h1 
+{
+    @extend %title-spacing;
+    text-transform: uppercase;
+}
+
+.about-overlay-objectives
+{
+    @extend .primary-overlay;
+}
+
+.about-overlay-objectives span 
+{
+    @extend %grid-section-setup;
+}
+
+.about-overlay-objectives span h1 
+{
+    text-align: center;
+    grid-column: span 6;
+}
+
+.about-overlay-objectives span p
+{
+    padding-right: 32px;
+    padding-left: 32px;
+    
+    grid-column: span 3;
+}
+
+.about-overlay-goals
+{
+    @extend %grid-section-setup;
+    @extend .secondary-overlay;
+}
+
+.about-overlay-goals span h1 
+{
+    @extend %title-spacing;
+    text-align: center;
+
+}
+
+.about-overlay-goals span
+{
+    grid-column: span 3;
+}
+
+.about-overlay-goals img
+{
+    grid-column: span 3;
+}

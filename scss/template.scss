@@ -7,3 +7,28 @@
 {
     display: none;
 }
+
+%grid-section-setup
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 32px;
+
+    
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+%title-spacing
+{
+    margin-bottom: 64px;
+}
+
+// section colors
+$primary-background : #EFEFEF;
+$secondary-background : #2D3436;
+
+$header-menu-color : $secondary-background;
+
+$footer-misc-color : $primary-background;
+$footer-menu-color : $primary-background;
