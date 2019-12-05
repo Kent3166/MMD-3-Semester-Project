@@ -1,4 +1,3 @@
-<!-- 404 Error AREA -->
 <!DOCTYPE html>
 
 <html <?php language_attributes(); ?> >
