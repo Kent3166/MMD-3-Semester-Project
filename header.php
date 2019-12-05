@@ -10,15 +10,41 @@
         <meta http-equiv="X-UA-Compatible" 
               content="ie=edge">
 
-        <meta name="description" 
-              content="en wordpress side" />
-        
         <meta name="yandex-verification" 
               content="7e520d70d8db6d7e" />
 
         <?php 
             wp_head(); 
         ?>
+
+        <!-- For Search Engines -->
+        <?php 
+            if ( get_field( 'description' ) ):
+        ?>
+            <meta name="description" 
+                  content="<?php the_field('description') ?>" />
+        <?php 
+            endif;
+        ?>
+
+        <?php 
+            if ( get_field( 'keywords' ) ):
+        ?>
+            <meta name="keywords" 
+                  content="<?php the_field('keywords') ?>" />
+        <?php 
+            endif;
+        ?>
+
+        <?php 
+            if ( get_field( 'index-message' ) ):
+        ?>
+            <meta name="robots" 
+                  content="<?php the_field('index-message') ?>" />
+        <?php 
+            endif;
+        ?>
+                
     </head>
     
     <body>
