@@ -5,12 +5,20 @@
     <main>
         <div>
             <div> 
-                <p> 404 </p>
-                <p> Page not found </p>
+                <p> 
+                    404 
+                </p>
+
+                <p> 
+                    Page not found 
+                </p>
             </div>
             
             <div> 
-                <p> Looks like the page you requested doesn't exist anymore. Reasons could be it, has changed location, too old or never existed. </p>
+                <p> 
+                    Looks like the page you requested doesn't exist anymore. 
+                    Reasons could be it, has changed location, too old or never existed. 
+                </p>
             </div>
 
             <div> 
@@ -21,6 +29,7 @@
                 <div> 
                     <!-- Home -->
                 </div>
+
                 <div>
                     <!-- Sitemap -->
                 </div>
