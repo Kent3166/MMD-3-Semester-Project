@@ -10,16 +10,25 @@
                     the_post();
         ?>
 
-        <section> 
+        <?php // If it has a section ?>
+        <?php if( get_field( 'section-overlay' ) ):  ?>
+            <section class="<?php the_field('section-overlay'); ?>"> 
+        <?php endif; ?>
+
+        <?php // if it does not have a overlay style ?>
+        <?php if( !get_field( 'section-overlay' ) ):  ?>
+            <section> 
+        <?php endif; ?>
         
             <!--  -->
-         
-                <h1> 
-                    <?php the_title(); ?> 
-                </h1>
                 
                 <div>
-                    <?php the_content(); ?> 
+                    <h1> 
+                        <?php the_title(); ?> 
+                    </h1>
+                    <div> 
+                        <?php the_content(); ?> 
+                    </div>
                 </div>
 
         </section>
@@ -35,13 +44,25 @@
         <?php if( get_field( 'section-overlay' ) ): ?>
 
         <section class="<?php the_field( 'section-overlay' ); ?>"> 
-            <h1> 
-                <?php the_title(); ?> 
-            </h1>
-        
-            <p> 
-                <?php the_content(); ?>
-            </p>
+            <span> 
+                <h1> 
+                    <?php the_title(); ?> 
+                </h1>
+
+                <?php if (! ($post->post_name == 'our-mission')): ?>
+                    <?php the_content(); ?>
+                <?php endif; ?>
+
+                <?php if ( ($post->post_name === 'our-mission')): ?>
+                    <?php the_content(); ?>
+                <?php endif; ?>
+            
+            </span>
+
+            <?php // Has a image ?>
+            <?php if(get_field('image')): ?>
+                <img src="<?php the_field( 'image' ); ?>" width="100%;" />
+            <?php endif; ?>
         </section>
 
         <?php endif; ?>

@@ -8,9 +8,27 @@
     display: none;
 }
 
-// section colors
-$default : #EFEFEF;
+%grid-section-setup
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 32px;
 
-$header-menu-color : #2D3436;
-$footer-misc-color : $default;
-$footer-menu-color : $default;
+    
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+%title-spacing
+{
+    margin-bottom: 64px;
+}
+
+// section colors
+$primary-background : #EFEFEF;
+$secondary-background : #2D3436;
+
+$header-menu-color : $secondary-background;
+
+$footer-misc-color : $primary-background;
+$footer-menu-color : $primary-background;
