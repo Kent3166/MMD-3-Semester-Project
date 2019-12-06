@@ -3,6 +3,51 @@
     Description: 
 */
 
+@media screen and (max-width: 1200px) 
+{
+    .about-overlay
+    {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .about-overlay-objectives
+    {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .about-overlay-objectives span
+    {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .about-overlay-goals span
+    {
+        grid-column: span 6;
+    }
+
+    .about-overlay-goals
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-overlay-goals img 
+    {
+        grid-column: span 6;
+    }
+
+    .about-overlay-objectives span p
+    {
+        grid-column: span 6;
+
+    }
+
+}
+
+
 @media screen and (max-width: 800px) 
 {
     body 
@@ -39,5 +84,36 @@
         margin-bottom: 8px;
 
         text-align: center;
+    }
+
+    .about-overlay
+    {
+        padding:0px;
+        margin:0px;
+    }
+
+    .about-overlay-goals
+    {
+        padding: 0px;
+        margin:0px;
+    }
+
+    .about-overlay-goals p 
+    {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .about-overlay-objectives
+    {
+        padding: 0px;
+        margin:0px;
+    }
+
+    
+    .about-overlay-objectives span 
+    {
+        padding: 0px;
+        margin: 0px;
     }
   }

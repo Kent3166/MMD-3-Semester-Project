@@ -3,16 +3,12 @@
 ?>
 
     <main> 
-        <section> 
+        <section id="frontpage-presentation"> 
             <!--  -->
             <?php 
                 while( have_posts() ):
                     the_post();
             ?>
-
-            <h1> 
-                <?php the_title(); ?> 
-            </h1>
             
             <div>
                 <?php the_content(); ?> 
@@ -21,13 +17,13 @@
             <?php endwhile; ?>
 
             <div class="video">
-                <video width="1280" height="720" controls>
+                <video width="100%" controls>
                     <source src="<?php echo get_template_directory_uri() . '/content/video/presentation.mp4' ?>" type="video/mp4">
                 </video> 
             </div>
         </section>
         
-        <section> 
+        <section id="frontpage-orientation" class="primary-overlay"> 
             <!-- Orientation -->
             <p> 
                 Become more productive 
@@ -88,12 +84,16 @@
         </section>
         
         <!-- Mission -->
-        <section> 
-            <p> Our Mission </p>
+        <section id="frontpage-mission" class="secondary-overlay" > 
+            <h2> 
+                Our Mission 
+            </h2>
             
             <div> 
                     <div> 
-                        <p> Open Source </p>
+                        <p> 
+                            Open Source 
+                        </p>
                         
                         <p> 
                             An open platform, that everyone
@@ -104,7 +104,7 @@
 
                         <ul> 
                             <li> 
-                                <a> 
+                                <a href="#"> 
                                     <p> 
                                         Source code here
                                     </p> 
@@ -112,7 +112,7 @@
                             </li>
                             
                             <li>
-                                <a> 
+                                <a href="#"> 
                                     <p> 
                                         Read more
                                     </p> 
@@ -150,7 +150,7 @@
         </section>
         
         <!-- ACTION AREA -->
-        <section> 
+        <section id="frontpage-action-area" class="primary-overlay"> 
             <div>
                     <img />
             </div>
