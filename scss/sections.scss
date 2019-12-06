@@ -6,8 +6,18 @@
 .primary-overlay
 {
     @extend %overlay;
+    
+    @extend %grid-section-setup;
     background-color: $primary-background;
 
+}
+
+.prioritise-text h1
+{
+    text-align: center;
+
+    font-family: 'open sans';
+    grid-column: span 6;
 }
 
 .primary-overlay h1 
@@ -18,9 +28,11 @@
 .secondary-overlay
 {
     
+    background-color: $secondary-background;
     @extend %overlay;
     color: white;
-    background-color: $secondary-background;
+    
+    @extend %grid-section-setup;
 }
 
 .secondary-overlay h1
@@ -30,6 +42,12 @@
 }
 
 .secondary-overlay p 
+{
+
+}
+
+
+.primary-overlay h1 
 {
 
 }
@@ -45,6 +63,7 @@
 .about-overlay div 
 {
     grid-column: span 6;
+
     padding-right: 32px;
     padding-left: 32px;
 }
@@ -57,6 +76,7 @@
 
 .about-overlay-objectives
 {
+    display: block !important;
     @extend .primary-overlay;
 }
 
@@ -100,4 +120,53 @@
 .about-overlay-goals img
 {
     grid-column: span 3;
+    
+}
+
+#frontpage-presentation
+{
+
+}
+
+#frontpage-presentation h1
+{
+    text-align: center;
+    
+    font-family: 'open sans';
+    text-transform: uppercase;
+
+}
+
+#frontpage-presentation p 
+{
+    font-family: 'open sans';
+    text-align: center;
+}
+
+#frontpage-presentation ul 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#frontpage-presentation ul li 
+{
+    margin-right: 12px;
+    margin-left: 12px;
+    text-transform: uppercase;
+    font-family: 'open sans';
+}
+
+#frontpage-presentation .video
+{
+    
+    @extend %grid-section-setup;
+    margin-top: 90px;   
+}
+
+#frontpage-presentation .video video 
+{
+    grid-column: span 6;
 }

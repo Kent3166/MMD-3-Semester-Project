@@ -1,0 +1,37 @@
+#page-404-section
+{
+    @extend %grid-section-setup;
+
+}
+
+#page-404-section .message 
+{
+    display: flex;
+    justify-content: center;
+}
+
+#page-404-section .message .code
+{
+    color:white;
+    background-color: $secondary-background;
+    font-family: 'open sans';
+    padding-right: 16px;
+    padding-left:16px;
+
+}
+
+#page-404-section .message .message-content
+{
+    font-family: 'open sans';
+
+    margin-left: 16px;
+}
+
+
+#page-404-section .descriptor 
+{    
+    font-family: 'open sans';
+    text-align: center;
+
+
+}
