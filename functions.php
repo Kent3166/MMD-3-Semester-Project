@@ -17,7 +17,7 @@ function register_menus()
                                'misc-menu' => __( 'Misc. Area Menu', 'theme-menu' ),
                                
                                'page-help-basic-menu' => __( 'Page Help Basic Menu', 'theme-menu' ),
-                               'page-help-advanced-menu' => __( 'Page Help Advanced Menu', 'theme-menu' ) ), );
+                               'page-help-advanced-menu' => __( 'Page Help Advanced Menu', 'theme-menu' ) ) );
 }
 
 add_action('after_setup_theme', 'theme_setup_after');
