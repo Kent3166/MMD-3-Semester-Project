@@ -8,6 +8,17 @@
     display: none;
 }
 
+.container
+{
+    grid-column: span 1;
+}
+
+
+.container-4
+{
+    grid-column: span 4;
+}
+
 %grid-section-setup
 {
     display: grid;

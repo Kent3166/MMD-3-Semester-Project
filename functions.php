@@ -14,7 +14,10 @@ function register_menus()
 {
     register_nav_menus( array( 'header-menu' => __( 'Header Main Area Menu', 'theme-menu' ), 
                                'footer-menu' => __( 'Footer Main Area Menu', 'theme-menu' ),
-                               'misc-menu' => __( 'Misc. Area Menu', 'theme-menu' ) ) );
+                               'misc-menu' => __( 'Misc. Area Menu', 'theme-menu' ),
+                               
+                               'page-help-basic-menu' => __( 'Page Help Basic Menu', 'theme-menu' ),
+                               'page-help-advanced-menu' => __( 'Page Help Advanced Menu', 'theme-menu' ) ), );
 }
 
 add_action('after_setup_theme', 'theme_setup_after');
